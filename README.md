@@ -7,6 +7,4 @@ Available via:
 ```
 x-github-client://openRepo/https://github.com/TurnipGuy30/CSS-DT-Yr-9-2021.git
 ```
-### Disclaimer
-This is not a legitimate shop! It's just a theoretical interpretation of my own skills, i.e. a theory assignment.
 ###### Hi, Sir!
