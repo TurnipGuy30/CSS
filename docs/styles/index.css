@@ -1,5 +1,10 @@
 body {
-  background-image: url("images/textures/005.jpg");
+}
+# content {
+  background-color: rgba(135, 206, 250, 0.4);
+}
+# logo {
+  width: ;
 }
 a {
   color: purple;
