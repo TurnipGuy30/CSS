@@ -1,0 +1,10 @@
+body {
+  background-image: url("images/textures/005.jpg");
+}
+a {
+  color: purple;
+  text-decoration: underline;
+}
+a:hover {
+  cursor: pointer;
+}
