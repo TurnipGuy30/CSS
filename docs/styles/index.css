@@ -7,9 +7,12 @@ body {
   width: 20%;
 }
 #navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   font-size: 8px;
-  background-color: blue;
-  padding: ;
+  background-color: rgba(61, 81, 156, 0.8);
 }
 #divider {
   height: 100%;
@@ -19,8 +22,17 @@ body {
   color: white;
   text-decoration: none;
 }
-.island {
-  align: center;
+#navigation ul li {
+  float: left;
+  border-right:1px solid rgb(7, 12, 28);
+}
+#navigation ul li:last-child {
+  border-right: none;
+#island {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 a {
   color: purple;
