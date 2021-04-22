@@ -15,22 +15,28 @@
 	<body style="background-image: url('images/back.jpg');">
 
 		<br>
-		<div id="content">
+		<div id="content" style="background-color: rgba(135, 206, 250, 0.6);"> <!--"Light Sky Blue"-->
 
 			<img src="images/logo1.png" alt="Logo" ondblclick="mystery();" id="logo"/>
 
-			<!-- Menu -->
-			<ul>
-				<li><a href="index.html"><span>Home</span></a></li>
-				<li><a onclick="error();"><span>Upcoming Flights</span></a></li>
-				<li><a onclick="error();"><span>About Us</span></a></li>
-				<li><a onclick="error();"><span>Travel Guide</span></a></li>
-				<li><a onclick="error();"><span>Contact Us</span></a></li>
-			</ul>
+			<div id="navigation">
+				<nav><br>
+
+					<a href="index.html"><span>Home</span></a> |
+					<a onclick="error();"><span>Upcoming Flights</span></a> |
+					<a onclick="error();"><span>About Us</span></a> |
+					<a onclick="error();"><span>Travel Guide</span></a> |
+					<a onclick="error();"><span>Contact Us</span></a> |
+
+				<br>&nbsp;</nav>
+			</div>
+
 			<br>
 
 			<!-- Island Picture -->
-			<img class ="island" src="images/island.jpg" alt="island" />
+			<p class="island">
+				<img class ="island" src="images/island.jpg" alt="island" class="island" />
+			</p>
 
 			<!-- Welcome Message -->
 			<h2>Welcome</h2>

@@ -1,10 +1,26 @@
 body {
 }
-# content {
-  background-color: rgba(135, 206, 250, 0.4);
+#content {
+  left: 0px;
 }
-# logo {
-  width: ;
+#logo {
+  width: 20%;
+}
+#navigation {
+  font-size: 8px;
+  background-color: blue;
+  padding: ;
+}
+#divider {
+  height: 100%;
+  background-color: black;
+}
+#navigation a {
+  color: white;
+  text-decoration: none;
+}
+.island {
+  align: center;
 }
 a {
   color: purple;
