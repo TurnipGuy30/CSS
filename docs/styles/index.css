@@ -18,16 +18,21 @@ body {
   height: 100%;
   background-color: black;
 }
+#navigation {
+  padding-bottom: 8px;
+}
 #navigation a {
   color: white;
   text-decoration: none;
 }
 #navigation ul li {
+  display: inline;
   float: left;
   border-right:1px solid rgb(7, 12, 28);
 }
 #navigation ul li:last-child {
   border-right: none;
+}
 #island {
   display: block;
   margin-left: auto;
