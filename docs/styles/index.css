@@ -1,43 +1,48 @@
 body {
 }
-#content {
+#box {
   left: 0px;
 }
 #logo {
-  width: 20%;
+  width: 13%;
 }
-#navigation {
+ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0px;
   overflow: hidden;
-  font-size: 8px;
   background-color: rgba(61, 81, 156, 0.8);
+  font-size: 4.5px;
 }
-#divider {
-  height: 100%;
-  background-color: black;
+li {
+  float: left;
+  border-right:2px solid #070C1C;
 }
-#navigation {
-  padding-bottom: 8px;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  text-decoration: none;
 }
-#navigation a {
+#link {
   color: white;
   text-decoration: none;
 }
-#navigation ul li {
-  display: inline;
-  float: left;
-  border-right:1px solid rgb(7, 12, 28);
-}
-#navigation ul li:last-child {
+li:last-child {
   border-right: none;
 }
 #island {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 65%;
+}
+#content {
+  font-size: 4.5px;
+}
+#text {
+  padding-left: 17.5%;
 }
 a {
   color: purple;
