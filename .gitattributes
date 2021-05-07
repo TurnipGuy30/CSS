@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.html linguist-language=HTML+PHP linguist-detectable=true
+*.css linguist-language=Hack linguist-detectable=true
+*.js linguist-language=J linguist-detectable=true
